@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0  ;
+  font-family: "Readex Pro", sans-serif;
+  font-family: "Urbanist", sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.NavBar_item {
+  margin: 10px;
+}
+.NavBar_row {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.NavBar_name {
+  top: 26px;
+  margin-left: 10px;
+  bottom: 99.08%;
+}
+.Hero_name {
+  margin-top: 120px;
+  border-radius: nullpx;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+
+.Hero-name-color {
+  color: #00dca6;
+}
+
+.Hero_text {
+  position: relative;
+  margin-top: 160px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.003em;
+  color: #8c8c8c;
+}
+
+.store-button {
+  background-color: #ffffff;
+  border-radius: 0px;
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  font-family: "Urbanist";
+  font-style: normal;
+  text-decoration: none;
+  border: 1px solid #536c66;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon-name {
+  font-size: 20px;
+  font-family: "Urbanist";
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-banner {
+  /* position: absolute; */
+  width: 441px;
+  height: 140px;
+  margin-left: 55rem;
+}
+
+.paragraph {
+  width: 100%;
+  max-width: 546px;
+  height: 264px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: 0.003em;
+  color: #8c8c8c;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .Hero_name {
+    margin-top: 80px;
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .Hero_text {
+    margin-top: 120px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .store-button {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 8px;
+  }
+
+  .hero-image {
+    margin-left: 0;
+  }
+
+  .info-banner {
+    width: 300px;
+    height: 100px;
+    margin-left: 8rem;
+
+  }
+
+
+  .paragraph {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero_name {
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .Hero_text {
+    margin-top: 80px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .info-banner {
+    width: 300px;
+    height: 100px;
+    margin-left: 0rem;
+
+  }
+
+  .store-button {
+    width: 100px;
+    height: 30px;
+  }
+  .hero-image {
+    margin-left: 0;
+  }
+
+  .paragraph {
+    max-width: 300px;
+  
+  }
+  .icon-button{
+    margin-left: 6rem;
+  }
+}
+
+/* about-code */
+.about-image {
+  width: 100%;
+  max-width: 595.04px;
+  height: auto;
+}
+
+.main-about {
+  margin-top: 10rem;
+}
+
+.about-div {
+  background-image: url("./images/green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .about-div {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-div {
+    background-position: center;
+  }
+  .about-text{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .paragraph{
+    margin-left: 5rem;
+    
+  }
+}
+
+/* service */
+.service-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  background: #c1fff0;
+  padding: 2rem;
+}
+
+.service-text {
+  margin-top: 3rem;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  color: #242a38;
+  text-align: center;
+}
+
+.service-paragraph {
+  width: 100%;
+  max-width: 492px;
+  height: auto;
+  margin-top: 1rem;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #242a38;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .service-paragraph {
+    max-width: 100%;
+  }
+  .service-body {
+    margin-top: 7rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-body {
+    margin-top: 13rem;
+    padding: 1rem;
+  }
+}
+
+
+
+/* testiomonial section */
+.testimonial-section {
+  margin-top: 50px;
+  background-color: #00dca6;
+  padding: 50px 0;
+}
+
+.testimonial-section > h1 {
+  color: #000000;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.testimonial-card {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  filter: blur(4px);
+}
+
+.testimonial-card.active {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.testimonial-card.prev,
+.testimonial-card.next {
+  opacity: 0.5;
+}
+
+.testimonial-card.blur {
+  filter: blur(4px);
+}
+
+.testimonial-section {
+  margin-bottom: 40px;
+}
+
+.testimonial-card-radius {
+  border-radius: 30rem;
+  height: 15rem;
+}
+
+.testimonial-card-text {
+  margin-top: 60px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .testimonial-card-radius {
+    height: auto;
+  }
+
+  .testimonial-card-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-section {
+    padding: 30px 0;
+  }
+
+  .testimonial-section > h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-card-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+
+
+
+/* faq */
+
+.faq-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.accordion-toggle {
+  display: none;
+}
+
+.accordion-title {
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-title:hover {
+  background-color: #e5e5e5;
+}
+
+.accordion-content {  
+  display: none;
+  padding: 10px;
+}
+
+.accordion-toggle:checked + .accordion-title {
+  background-color: #e5e5e5;
+}
+
+.accordion-toggle:checked + .accordion-title + .accordion-content {
+  display: block;
+}
+
+/* faq.css */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+/* DocType */
+.doctype-section {
+  margin-top: 8rem;
+  margin-left: 30rem;
+  width: 400px;
+  height: 52px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  display: flex;
+  letter-spacing: 0.01em;
+  color: #242a38;
+}
+
+.doctype-paragraph {
+  /* position: absolute; */
+  width: 810px;
+  height: 88px;
+  /* top: 150px; */
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 44px;
+  /* or 183% */
+  text-align: center;
+  letter-spacing: 0.003em;
+  color: #8c8c8c;
+}
+.frame-image{
+  margin-left: 3rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .doctype-section {
+    margin-left: 0;
+    width: 100%;
+    font-size: 36px;
+    line-height: 52px;
+    justify-content: center;
+  }
+
+  .doctype-paragraph {
+    width: 70%;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .frame-image{
+    margin-left: 10rem;
+  }
+  
+
+}
+
+@media (max-width: 480px) {
+  .doctype-section {
+    margin-top: 4rem;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .doctype-paragraph {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .frame-image{
+    margin-left: 1.5rem;
+  }
+
+}
+
+/* contact */
+.green-component {
+  background-color: #00dca6;
+  padding: 90px;
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 2rem;
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 231px;
+  height: 68px;
+  margin-left: 25rem;
+  margin-top: 3rem;
+  color: #ffffff;
+  background: #242a38;
+  border-radius: 10px;
+}
+
+.Text-ara {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #242a38;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .green-component {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 50px;
+  }
+
+  .contact-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Text-ara {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .green-component {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 30px;
+  }
+
+  .contact-button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Text-ara {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* footer */
+.footer {
+  color: #000000;
+  padding: 70px 0;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.footer-menu .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer-menu .navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.footer-icon {
+  margin-right: 5px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer-logo img {
+    width: 80px;
+  }
+
+  .footer-menu .navbar-toggler {
+    color: #000;
+    border-color: #000;
+  }
+
+  .footer-menu .navbar-nav .nav-link {
+    color: #000;
+    margin: 5px 10px;
+  }
+  .footer-contact{
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer-logo img {
+    width: 60px;
+  }
+
+  .footer-menu .navbar-toggler {
+    color: #000;
+    border-color: #000;
+  }
+
+  .footer-menu .navbar-nav .nav-link {
+    color: #000;
+    margin: 3px 10px;
+  }
+  .footer-contact{
+    margin-left: 0rem;
+  }
+}
