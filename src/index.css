@@ -208,6 +208,12 @@
   .about-div {
     margin-left: 0;
   }
+  .about-div {
+    background-image: url("./images/green.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -222,6 +228,13 @@
     margin-left: 5rem;
     
   }
+  .about-div {
+    background-image: url("./images/green.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2rem;
+  }
+
 }
 
 /* service */
